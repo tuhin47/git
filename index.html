@@ -7,8 +7,21 @@
 </head>
 <body>
     <header>
+        <div id='app'></div>
+        <h2 id="nadir">haha</h2>
         <h1>Joss joss</h1>
+        <h1 class="tuhin"> tuhin</h1>
     </header>
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
 </body>
+<script>
+    console.log(1,document.getElementById("nadir"));
+    console.log(2,document.getElementsByTagName("h1"));
+    console.log(3,document.getElementsByClassName("tuhin"));
+    document.getElementById("nadir").setAttribute("class","nadirjoss");
+    
+    var child = document.createElement("p");
+    child.innerHTML= "ajhdfafhdusiadhfusidfhuailsdfh";
+    document.getElementById('app').append(child);
+</script>
 </html>
