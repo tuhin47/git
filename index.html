@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Header</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div id='app'></div>
-        <h2 id="nadir">haha</h2>
-        <h1>Joss joss</h1>
-        <h1 class="tuhin"> tuhin</h1>
+      <div id="app"></div>
+      <h2 id="nadir">haha</h2>
+      <h1>Joss joss</h1>
+      <h1 class="tuhin">tuhin</h1>
     </header>
     <!-- <script src="index.js"></script> -->
-</body>
-<script>
-    console.log(1,document.getElementById("nadir"));
-    console.log(2,document.getElementsByTagName("h1"));
-    console.log(3,document.getElementsByClassName("tuhin"));
-    document.getElementById("nadir").setAttribute("class","nadirjoss");
-    
+  </body>
+  <script>
+    console.log(1, document.getElementById("nadir"));
+    console.log(2, document.getElementsByTagName("h1"));
+    console.log(3, document.getElementsByClassName("tuhin"));
+    console.log(4, document.getElementsByTagName("h2"));
+    document.getElementById("nadir").setAttribute("class", "nadirjoss");
+
     var child = document.createElement("p");
-    child.innerHTML= "ajhdfafhdusiadhfusidfhuailsdfh";
-    document.getElementById('app').append(child);
-</script>
+    child.innerHTML = "ajhdfafhdusiadhfusidfhuailsdfh";
+    document.getElementById("app").append(child);
+  </script>
 </html>
